@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body{
+    padding-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#menu-dropdown{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333333;
+    box-shadow: #000000 0px -10px 30px 5px;
+}
+
+#menu-dropdown ul{
+	text-align: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu-dropdown > ul > li{
+	display: inline-block;
+	position: relative;
+	margin-top: 8px;
+}
+
+#menu-dropdown > ul > li > a{
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	transition: 0.4s ease;
+}
+
+#menu-dropdown > ul > li:hover > a{
+	background-color: #eee;
+	color: #333;
+	transition: 0.3s ease;
+}
+
+#menu-dropdown > ul > li > ul {
+    display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+#menu-dropdown > ul > li:hover ul{
+	display: block;
+}
+
+#menu-dropdown > ul > li > ul > li{
+	display: block;
+    font-size: 15px;
+}
+
+#menu-dropdown > ul > li > ul > li > a{
+	display: block;
+	padding: 5px 0;
+	color: #333;
+	text-decoration: none;
+	transition: 0.2s ease;
+}
+
+#menu-dropdown > ul > li > ul > li > a:hover{
+	background-color: #eee;
+}
+
+.mage img{
+    width: 400px;
+    border-radius: 5px;
+}
+
+.capa img{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: #000 8px 10px 30px 2px;
+}
+
+.capas figure{
+    margin-right: 0px;
+}
+
+.capas img{
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: #000 8px 10px 30px 2px;
+}
+
+.visore{
+    display: flex;
+}
+
+.visore div{
+    display: block;
+    float: left;
+}
+
+.visoreis{
+    display: flex;
+    justify-content: center;
+}
+
+.visoreis div{
+    display: block;
+    float: left;
+}
+
+h1{
+    text-indent: 20px;
+    font-size: 35px;
+    color: black;
+}
+
+p{
+    font-size: 17px;
+    text-indent: 20px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+#ass{
+    text-align: center;
+    font-size: 18px;
+    color: #4D4A4C;
+}
